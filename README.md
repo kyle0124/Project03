@@ -11,5 +11,5 @@
 - 개발도구 : Jupyter Notebook, Google Colab, VisualStudio Code
 - 개발언어 : Python
 - Data : 중고차 판매 사이트 Crawling
-- 사용 기술(라이브러리) : scikit-learn, ensemble, voting, pycaret, streamlit
+- 사용 기술(라이브러리) : scikit-learn, ensemble, voting, pycaret, streamlit, selenium
 - 웹 어플리케이션 주소 : https://predict-my-car.streamlit.app/
