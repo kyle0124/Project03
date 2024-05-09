@@ -70,26 +70,26 @@ if 'fullauto_aircon' not in st.session_state :
 
 ###################################### Load Models & columns #############################################
 
-columns_grandeur = np.load('./columns/columns_grandeur.npy', allow_pickle=True)
-columns_k5 = np.load('./columns/columns_k5.npy', allow_pickle=True)
-columns_morning = np.load('./columns/columns_morning.npy', allow_pickle=True)
-columns_tucson = np.load('./columns/columns_tucson.npy', allow_pickle=True)
+columns_grandeur = np.load('./03.Streamlit/columns/columns_grandeur.npy', allow_pickle=True)
+columns_k5 = np.load('./03.Streamlit/columns/columns_k5.npy', allow_pickle=True)
+columns_morning = np.load('./03.Streamlit/columns/columns_morning.npy', allow_pickle=True)
+columns_tucson = np.load('./03.Streamlit/columns/columns_tucson.npy', allow_pickle=True)
 
-colors_grandeur = np.load('./colors/colors_grandeur.npy', allow_pickle=True)
-colors_k5 = np.load('./colors/colors_k5.npy', allow_pickle=True)
-colors_morning = np.load('./colors/colors_morning.npy', allow_pickle=True)
-colors_tucson = np.load('./colors/colors_tucson.npy', allow_pickle=True)
-
-
+colors_grandeur = np.load('./03.Streamlit/colors/colors_grandeur.npy', allow_pickle=True)
+colors_k5 = np.load('./03.Streamlit/colors/colors_k5.npy', allow_pickle=True)
+colors_morning = np.load('./03.Streamlit/colors/colors_morning.npy', allow_pickle=True)
+colors_tucson = np.load('./03.Streamlit/colors/colors_tucson.npy', allow_pickle=True)
 
 
-model_grandeur = load_model('./models/grandeur_auto')
-model_k5 = load_model('./models/k5_auto')
-model_morning = load_model('./models/morning_auto')
-model_tucson = load_model('./models/tucson_auto')
 
-model_margin = joblib.load('./models/margin_2ndPoly.pkl')
-model_poly = joblib.load('./models/2ndPoly.pkl')
+
+model_grandeur = load_model('./03.Streamlit/models/grandeur_auto')
+model_k5 = load_model('./03.Streamlit/models/k5_auto')
+model_morning = load_model('./03.Streamlit/models/morning_auto')
+model_tucson = load_model('./03.Streamlit/models/tucson_auto')
+
+model_margin = joblib.load('./03.Streamlit/models/margin_2ndPoly.pkl')
+model_poly = joblib.load('./03.Streamlit/models/2ndPoly.pkl')
 
 
 ####################################### Define Function ################################################
