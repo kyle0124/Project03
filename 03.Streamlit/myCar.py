@@ -13,7 +13,7 @@ warnings.filterwarnings('ignore')
 ##################################### Session state ##############################################
 
 if 'carName' not in st.session_state :
-    st.session_state['carName'] = ''
+    st.session_state['carName'] = '그랜저'
 
 if 'name' not in st.session_state :
     st.session_state['name'] = 'normal'
